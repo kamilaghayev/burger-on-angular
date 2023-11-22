@@ -1,0 +1,262 @@
+
+.main {
+  background-image: url("../assets/images/main_bg.png");
+  background-position: top center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+.header .logo img {
+  vertical-align: bottom;
+}
+.header .logo {
+  margin-right: 191px;
+}
+.menu-list {
+  display: flex;
+  gap: 88px;
+}
+.menu-item {
+  cursor: pointer;
+}
+.menu-item a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu-item a:hover {
+  border-bottom: 2px solid white;
+}
+
+
+.currency {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  aspect-ratio: 1/1;
+  font-size: 18px;
+  margin-left: auto;
+  padding: 11px 0;
+}
+
+.main-content {
+  padding-top: 103px;
+  padding-bottom: 199px;
+  margin-top: 130px;
+}
+.main-content .container {
+  position: relative;
+}
+.main-info {
+  max-width: 608px;
+}
+.main-small-info {
+  background-color: #D3320F;
+  border-radius: 100px;
+  padding: 12px 16px;
+  display: inline-block;
+  font-family: 'Gilroy', sans-serif;
+}
+.main-title {
+  font-size: 120px;
+  font-family: 'Merriweather', sans-serif;
+  line-height: 156px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+}
+.main-text {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 56px;
+}
+.main-image {
+  position: absolute;
+  top: -193px;
+  height: 980px;
+  left: calc(100% - 991px);
+}
+
+.why {
+  background-image: url("../assets/images/whybg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: initial;
+  padding-bottom: 180px;
+}
+.why-items {
+  margin-top: 60px;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(3, 312px);
+  justify-content: center;
+}
+.why-item {
+  text-align: center;
+  font-family: 'Gilroy', sans-serif;
+}
+.why-item-title {
+  font-size: 24px;
+  line-height: 29px;
+  padding: 24px 0;
+}
+.why-item-text {
+  font-size: 16px;
+  line-height: 140%;
+}
+.products {
+  background-image: url("../assets/images/burgers_bg.png");
+  background-position: top center;
+  background-size: 1400px;
+  padding-bottom: 180px;
+  background-repeat: no-repeat;
+}
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
+  gap: 24px;
+  margin-top: 60px;
+}
+.products-item {
+  padding: 30px;
+  border: 1px solid #353535;
+  border-radius: 16px;
+  background-color: #211A16;
+  font-family: 'Gilroy', sans-serif;
+}
+.products-item-image {
+  height: 250px;
+}
+.products-item-image img {
+  max-width: 100%;
+}
+.products-item-title {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 24px 0;
+}
+.products-item-text {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+.products-item-extra {
+  display: flex;
+  justify-content: space-between;
+}
+.products-item-price {
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 8px;
+}
+.products-item-weight {
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+}
+.button.product-button {
+  display: flex;
+  justify-content: center;
+  width: 182px;
+  height: 62px;
+}
+.button.product-button span:first-child {
+  margin-right: 10px;
+}
+.product-button span {
+  display: flex;
+  align-items: center;
+}
+
+.order {
+  background-image: url("../assets/images/order_bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+.order .container {
+  position: relative;
+}
+.order-image {
+  position: absolute;
+  top: 0;
+  right: calc(100% - 764px);
+  z-index: -1;
+}
+.order-form {
+  border-radius: 16px;
+  border: 1px solid #353535;
+  background: #211A16;
+  margin-top: 60px;
+  width: 426px;
+  padding: 60px 40px;
+  margin-left: 674px;
+}
+.order-form-text {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  font-family: 'Gilroy', sans-serif;
+}
+.order-form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.order-form-input {
+  width: 344px;
+  height: 62px;
+  background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-form-input.error {
+  background: red;
+}
+
+.order-form-input input {
+  padding: 16px 10px;
+  background-color: #211A16;
+  border-radius: 8px;
+  color: #fff;
+  width: 342px;
+  height: 60px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.order-form-inputs .button {
+  width: 344px;
+  height: 62px;
+}
+.footer {
+  padding: 60px 0;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rights {
+  font-size: 16px;
+  line-height: 18px;
+}
